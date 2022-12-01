@@ -8,6 +8,7 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.indexes
+    - content.code.annotate
   palette:
     scheme: slate
     primary: indigo
@@ -47,10 +48,17 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: index.md
   - Cosmic Server:
       - Introduction: cosmic-server/introduction.md
+      - Scripting:
+          - TypeScript API:
+              - Using TypeScript in Cosmic: cosmic-server/typescript-api/using-typescript-in-cosmic.md
+          - Framescript API:
+              - Using Framescript in Cosmic: cosmic-server/framescript-api/using-framescript-in-cosmic.md
 
 repo_url: https://github.com/Tsodinq/framework-wiki
