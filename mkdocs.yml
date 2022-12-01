@@ -1,0 +1,56 @@
+site_name: Framework Wiki
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.indexes
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: indigo
+
+plugins:
+  - search
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    cookies:
+      analytics:
+        name: Soodam.re Anonymized Analytics
+        checked: false
+      soodamre:
+        name: Soodam.re Interactive
+        checked: false
+
+copyright: >
+  Copyright &copy; 2022 Soodam.re B.V. and contributors. All rights reserved. -
+  <a href="#__consent">Change cookie settings</a>
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Cosmic Server:
+      - Introduction: cosmic-server/introduction.md
+
+repo_url: https://github.com/Tsodinq/framework-wiki
