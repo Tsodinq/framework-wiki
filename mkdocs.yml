@@ -58,7 +58,5 @@ nav:
       - Scripting:
           - TypeScript API:
               - Using TypeScript in Cosmic: cosmic-server/typescript-api/using-typescript-in-cosmic.md
-          - Framescript API:
-              - Using Framescript in Cosmic: cosmic-server/framescript-api/using-framescript-in-cosmic.md
 
 repo_url: https://github.com/Tsodinq/framework-wiki
