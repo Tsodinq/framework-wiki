@@ -16,6 +16,18 @@ theme:
 
 plugins:
   - search
+  - i18n:
+      default_language: en
+      languages:
+        en:
+          name: English
+          build: true
+        fr:
+          name: Français
+          build: true
+        nl:
+          name: Nederlands
+          build: true
 
 extra:
   consent:
