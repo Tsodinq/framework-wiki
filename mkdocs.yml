@@ -64,6 +64,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - Home: index.md
@@ -73,5 +76,9 @@ nav:
       - Scripting:
           - TypeScript API:
               - Using TypeScript in Cosmic: cosmic-server/typescript-api/using-typescript-in-cosmic.md
+              - Datastores: cosmic-server/typescript-api/datastores.md
+  - Support:
+      - Resetting your password: support/resetting-your-password.md
+      - Changing your email address: support/changing-your-email.md
 
 repo_url: https://github.com/Tsodinq/framework-wiki

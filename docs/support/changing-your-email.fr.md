@@ -1,0 +1,1 @@
+Pour changer votre email sur Framework, rendez-vous dans les [Paramètres](https://framework.soodam.rocks/settings), allez dans l'onglet **:material-shield-key: Sécurité** et cliquez sur **Modifier l'email** sous le groupe **Email**. Vous serez invité à entrer votre nouvel email et recevrez un email pour vérifier votre nouvelle adresse email.
